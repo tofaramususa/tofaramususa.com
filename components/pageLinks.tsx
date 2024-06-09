@@ -17,7 +17,7 @@ const Pages = () => {
 					>
 						{link.label}
 						<FileInput size={16} 
-						className="text-accent/75 transition-all group-hover:text-foreground/75"/>
+						className="text-foreground/75 transition-all"/>
 					</Link>
 				))
 			}
