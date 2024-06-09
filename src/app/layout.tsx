@@ -90,7 +90,7 @@ const Nav = () => {
 
 const Footer = () => {
 	return (
-		<footer className="text-sm fade-in-3 mx-auto mb-12 mt-8 max-w-xl md:mt-24">
+		<footer className="text-sm fade-in-3 mx-auto mb-12  max-w-xl md:mt-24">
 			<a 
 				href="https://www.linkedin.com/in/tofaramususa"
 				target="_blank"
