@@ -29,7 +29,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <Layout>
-      <body className={cn("m-6 text-lg antialiased")}>
+      <body className={cn("m-6 text-lg antialiased text-color-black")}>
         <Nav />
         <Main className="fade-in-2 mx-auto max-w-xl">{children}</Main>
         <Footer />
@@ -45,33 +45,7 @@ const Nav = () => {
       <div className="grid gap-6">
         <div className="flex items-center justify-between">
           <Link href="/">
-            <Image
-              priority
-              src={logo}
-              className="transition-all -mt-3 items-start hover:opacity-70 dark:invert-0"
-              width={150}
-              height={150}
-              alt="tofara's logo"
-            ></Image>
           </Link>
-          <div className="flex items-center gap-4 text-base">
-            <a
-              className="text-muted-foreground transition-all hover:text-foreground"
-              href="https://github.com/tofaramususa"
-              target="_blank"
-            >
-              Github
-            </a>
-            <Link href="https://github.com/tofaramususa" target="_blank">
-              <Button
-                variant="outline"
-                size="icon"
-                className="bg-accent/30 rounded-xl"
-              >
-                <CodeXml className="h-[1-2rem] w-[1.2rem] rotate-0 scale-100 transition-all" />
-              </Button>
-            </Link>
-          </div>
         </div>
       </div>
     </nav>

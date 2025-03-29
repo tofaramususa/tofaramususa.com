@@ -12,7 +12,7 @@
 @layer base {
   :root {
     --background: 20 14.3% 4.1%;
-    --foreground: 60 9.1% 97.8%;
+    --foreground: 0 0% 0%;
     --card: 20 14.3% 4.1%;
     --card-foreground: 60 9.1% 97.8%;
     --popover: 20 14.3% 4.1%;
@@ -46,10 +46,10 @@
     --dark: #444444;
     --soot: #333333;
     --carbon: #222222;
-    --black: #141414;
+    --black: #000000;
 
     /* Set foreground and background variables */
-    --fg: var(--dark);
+    --fg: var(--black);
     --bg: var(--enamel);
 
     /* Font settings */
@@ -58,14 +58,14 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 11px;
+    font-size: 15px;
     --unit: 1em;
     --t: 0%;
     --flick: cubic-bezier(0.36, 2.09, 0.07, -1.52);
 
     /* Apply colors to root */
     color: var(--fg);
-    background-color: var(--carbon);
+    background-color: var(--enamel);
   }
 }
 
@@ -76,7 +76,7 @@
 
   body {
     color: var(--fg);
-    background-color: var(--carbon);
+    background-color: var(--enamel);
   }
 
   html,
@@ -88,7 +88,7 @@
   ::selection,
   .light ::selection {
     color: var(--enamel);
-    background-color: var(--carbon);
+    background-color: var(--enamel);
   }
 
   ::spelling-error {
@@ -99,15 +99,15 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    --fg: var(--cement);
-    --bg: var(--carbon);
+    --fg: var(--black);
+    --bg: var(--enamel);
     color: var(--fg);
     background-color: var(--bg);
   }
 
   main ::selection {
-    color: var(--carbon);
-    background-color: var(--cement);
+    color: var(--enamel);
+    background-color: var(--black);
   }
 
   section {
@@ -121,7 +121,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 44px;
-    background-color: var(--carbon);
+    background-color: var(--enamel);
   }
 
   h2 {
@@ -158,8 +158,8 @@
   }
 
   .callout::selection {
-    color: var(--carbon);
-    background-color: var(--cement);
+    color: var(--enamel);
+    background-color: var(--black);
   }
 
   .inverse {
@@ -168,7 +168,7 @@
   }
 
   .inverse ::selection {
-    color: var(--cement);
+    color: var(--black);
     background-color: var(--clay);
   }
 
