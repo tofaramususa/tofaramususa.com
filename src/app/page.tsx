@@ -1,14 +1,11 @@
-/* eslint-disable react/no-unescaped-entities */
-import Image from "next/image";
-import { Pages } from "@/components/pageLinks";
-// import {data} from "@/data/data"
+
 
 export default function Home() {
   return (
 		<div>
 			<h1>Tofara Mususa</h1>
 			<h2 className="">Software Engineer building full-stack web applications.</h2>
-			<Pages />
+			{/* <Pages /> */}
 			<h3>Bio</h3>
 			<p>
   I am a software engineer based in Abu Dhabi, UAE, originally from Harare, Zimbabwe. l am launching a creative web agency Pluton while l search for my next work opportunity.
@@ -35,8 +32,6 @@ export default function Home() {
 			<p>
 				High School @ St George's College. A'Levels Mathematics, Chemistry, Physics, Accounting
 			</p>
-			<h3>Website</h3>
-			<p>This website was built with TypeScript, NextJS, Tailwind, shadcn/ui and deployed to Vercel. The font is QuickSand from Google fonts.</p>
 		</div>
   );
 }

@@ -1,4 +1,3 @@
-import { Quicksand as FontSans } from "next/font/google";
 import "./globals.css";
 import { Button } from "@/components/ui/button";
 
@@ -17,12 +16,6 @@ import {Layout, Main } from "@/components/craft";
 import { cn } from "@/lib/utils";
 import { CodeXml } from "lucide-react";
 
-const fontSans = FontSans({
-  subsets: ["latin"],
-  variable: "--font-sans",
-  weight: "400",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
    metadataBase: new URL("https://tofaramususa.me"),
@@ -40,7 +33,7 @@ interface RootLayoutProps
 export default function RootLayout({  children }: RootLayoutProps) {
   return (
 	<Layout>
-		<body className={cn("m-6 font-sans text-lg antialiased selection:bg-orange-500 selection:text-orange-100", fontSans.variable)}>
+		<body className={cn("m-6 text-lg antialiased selection:bg-orange-500 selection:text-orange-100")}>
 		<Nav/>
 		<Main className="fade-in-2 mx-auto max-w-xl">{children}</Main>
 		<Footer />
