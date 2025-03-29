@@ -4,7 +4,7 @@ export default function Home() {
   return (
 		<div>
 			<h1>Tofara Mususa</h1>
-			<h2 className="">Software Engineer building full-stack web applications.</h2>
+			<h2 className="text-white">Software Engineer building full-stack web applications.</h2>
 			{/* <Pages /> */}
 			<h3>Bio</h3>
 			<p>

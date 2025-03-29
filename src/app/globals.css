@@ -1,13 +1,10 @@
+@import url("./../app/styles/fonts.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Departure Mono";
-  src: url("/assets/DepartureMono-Regular.woff2") format("woff2"),
-    url("/assets/DepartureMono-Regular.woff") format("woff"),
-    url("/assets/DepartureMono-Regular.otf") format("opentype");
-}
+
 
 @layer base {
   :root {
@@ -17,8 +14,8 @@
     --card-foreground: 60 9.1% 97.8%;
     --popover: 20 14.3% 4.1%;
     --popover-foreground: 60 9.1% 97.8%;
-    --primary: 60 9.1% 97.8%;
-    --primary-foreground: 24 9.8% 10%;
+    --primary: 0 0% 0%;
+    --primary-foreground: 0 0% 0%;
     --secondary: 12 6.5% 15.1%;
     --secondary-foreground: 60 9.1% 97.8%;
     --muted: 12 6.5% 15.1%;
@@ -33,6 +30,7 @@
 
     /* New color variables */
     --amber: #ffa133;
+    --white: #ffffff;
     --pumpkin: #e47b1a;
     --flux: #c8be50;
     --foam: #bccabb;
@@ -53,7 +51,7 @@
     --bg: var(--enamel);
 
     /* Font settings */
-    font-family: "Departure Mono", monospace;
+    font-family: "New York Large", monospace;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -65,7 +63,7 @@
 
     /* Apply colors to root */
     color: var(--fg);
-    background-color: var(--enamel);
+    background-color: var(--white);
   }
 }
 
@@ -76,7 +74,7 @@
 
   body {
     color: var(--fg);
-    background-color: var(--enamel);
+    background-color: var(--white);
   }
 
   html,
@@ -87,8 +85,8 @@
 
   ::selection,
   .light ::selection {
-    color: var(--enamel);
-    background-color: var(--enamel);
+    color: var(--white);
+    background-color: var(--white);
   }
 
   ::spelling-error {
@@ -100,13 +98,13 @@
     flex-direction: column;
     align-items: stretch;
     --fg: var(--black);
-    --bg: var(--enamel);
+    --bg: var(--white);
     color: var(--fg);
     background-color: var(--bg);
   }
 
   main ::selection {
-    color: var(--enamel);
+    color: var(--white);
     background-color: var(--black);
   }
 
@@ -121,7 +119,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 44px;
-    background-color: var(--enamel);
+    background-color: var(--white);
   }
 
   h2 {
@@ -158,7 +156,7 @@
   }
 
   .callout::selection {
-    color: var(--enamel);
+    color: var(--white);
     background-color: var(--black);
   }
 

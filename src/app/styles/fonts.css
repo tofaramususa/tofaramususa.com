@@ -1,0 +1,133 @@
+/* New York Extra Large */
+@font-face {
+    font-family: "New York Extra Large";
+    src: url("/assets/NewYorkExtraLarge-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "New York Extra Large";
+    src: url("/assets/NewYorkExtraLarge-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "New York Extra Large";
+    src: url("/assets/NewYorkExtraLarge-Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "New York Extra Large";
+    src: url("/assets/NewYorkExtraLarge-BoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  /* New York Large */
+  @font-face {
+    font-family: "New York Large";
+    src: url("/assets/NewYorkLarge-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "New York Large";
+    src: url("/assets/NewYorkLarge-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "New York Large";
+    src: url("/assets/NewYorkLarge-Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "New York Large";
+    src: url("/assets/NewYorkLarge-BoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  /* New York Medium */
+  @font-face {
+    font-family: "New York Medium";
+    src: url("/assets/NewYorkMedium-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "New York Medium";
+    src: url("/assets/NewYorkMedium-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "New York Medium";
+    src: url("/assets/NewYorkMedium-Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "New York Medium";
+    src: url("/assets/NewYorkMedium-BoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  /* New York Small */
+  @font-face {
+    font-family: "New York Small";
+    src: url("/assets/NewYorkSmall-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "New York Small";
+    src: url("/assets/NewYorkSmall-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "New York Small";
+    src: url("/assets/NewYorkSmall-Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "New York Small";
+    src: url("/assets/NewYorkSmall-BoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  /* New York */
+  @font-face {
+    font-family: "New York";
+    src: url("/assets/NewYork-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "New York";
+    src: url("/assets/NewYork-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "New York";
+    src: url("/assets/NewYork-Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "New York";
+    src: url("/assets/NewYork-BoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Departure Mono";
+    src:  url("/assets/DepartureMono-Regular.otf") format("opentype");
+  }
