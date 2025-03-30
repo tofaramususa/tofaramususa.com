@@ -1,37 +1,118 @@
-
-
 export default function Home() {
   return (
-		<div>
-			<h1>Tofara Mususa</h1>
-			<h2 className="">SOFTWARE ENGINEER.FULLSTACK + AI</h2>
-			{/* <Pages /> */}
-			<h3>Bio</h3>
-			<p>
-  I am a software engineer based in Abu Dhabi, UAE, originally from Harare, Zimbabwe. l am launching a creative web agency Pluton while l search for my next work opportunity.
-</p>
-<p>
-	I specialize in full-stack development, focusing on both front-end and back-end engineering. I am deeply interested in Large Language Models (LLMs) and their practical applications in creating new value and experiences on the web.
-</p>
-<p>
-  My career's focus is building reliable and efficient web applications that provide convenience better,cheaper and faster. Thank you for visiting my site! Feel free to reach out via <a href="mailto:tofaramususa07@gmail.com" target="_blank" className="link">email</a> or connect with me on <a href="https://www.linkedin.com/in/tofara-mususa" target="_blank" className="link">LinkedIn</a>.
-</p>
+    <>
+      <h2 className="text-center mx-auto w-full bg-ash py-2 bold-header header-title">
+        <strong>SOFTWARE ENGINEER • AI • FULLSTACK</strong>
+      </h2>
 
-			<h3>Work & Education</h3>
-			<p> I am studying at Ecole 42 (Abu Dhabi Campus). 
-				The 42 education model has revolutionized my approach to learning and problem-solving,
-				 providing me with a robust foundation in computer science and enhancing my ability to grasp 
-				 new concepts while tackling complex issues.
-			</p>
-			<p>
-				I started programming with C, progressed to C++ and then to TypeScript and Python. I plan on learning Go next as l explore building backend-systems further. </p>
-			<p> 
-				I have extensively used Git and 
-				the Linux systems. Deployed with Docker-compose and GitHub Actions.
-				l build RAG systems and AI agents with LangChain and its various tools</p>
-			<p>
-				High School @ St George's College. A'Levels Mathematics, Chemistry, Physics, Accounting
-			</p>
-		</div>
+      <h3>Bio</h3>
+
+      <p>
+        <strong>Who are you, again?</strong>
+      </p>
+      <p>
+        My name is Tofara. Born and raised in <strong>Harare, Zimbabwe</strong>,
+        currently living in <strong>Dubai/Abu Dhabi</strong>, where I study and
+        work building software.
+      </p>
+
+      <p>
+        <strong>What are you passionate about?</strong>
+      </p>
+      <p>
+        l spent most of my time building software - fullstack and ai agents
+        mainly. My whole focus is getting to a level where the software l ship is used by millions.
+      </p>
+
+      <h3>Work & Education</h3>
+
+      <p>
+        <strong>What projects have you worked on?</strong>
+      </p>
+      <p>
+        l currently work at a stealth US based startups as a software engineer.
+        l have deployed production python API's, built full-stack web apps using
+        Typescript and NextJS. l have also built ai agents using crewAI and
+        LLM's sdks. My{" "}
+        <a href="https://www.linkedin.com/in/tofara-mususa" target="_blank">
+          LinkedIn
+        </a>
+        . The personal projects l have worked on can be found on my{" "}
+        <a
+          href="https://github.com/tofaramususa?tab=repositories"
+          target="_blank"
+        >
+          GitHub
+        </a>
+        .
+      </p>
+
+      <p>
+        <strong>What skills do you got?</strong>
+      </p>
+      <p>
+        Deep understanding of CS principles. l programmed in C/C++ for 2years.
+        Built games, http servers, multi-threaded apps etc. That set the
+        foundation for my technical skills, to be able to understand complex
+        systems and build robust software. l have used Javascript, Typescript,
+        Python to ship production code. l have used Docker, Github Actions,
+        CI/CD to deploy software.{" "}
+        <strong>
+          My expertise lie in learning and in managin deep complexity
+        </strong>
+      </p>
+      <p>
+        l am able to communicate effectively, working with non-technical CEO's
+        to translate user stories into code. l worked in remote technical teams
+        with diverse nationalities. l am passionate about startups as well.
+        Working in one and building my own.
+      </p>
+      <p>
+        <strong>What is your formal education?</strong>
+      </p>
+      <p>
+        l did the UK Cambridge System in High School. 8A*'s and 1A for IGCSE.
+        1A*, 2A*'s and 1B for A Level. l got 770/800 for American SAT Math. l
+        joined{" "}
+        <a href="https://42.fr/en/homepage/" target="_blank">
+          Ecole 42
+        </a>{" "}
+        (Abu Dhabi Campus) where l learnt how to build software.
+      </p>
+      <h3>Business</h3>
+
+      <p>
+        <strong>What are you currently building for yourself?</strong>
+      </p>
+      <p>
+        I'm working on two things. First, claireAI, a whatsapp based ai agent
+        assistant for small businesses, which is the ultimate employee that can
+        talk to your customers. Second, Horizon, a web agency that will build
+        software infastructure in southern africa, through high quality software
+        products.
+      </p>
+
+      <p>
+        <strong>What project are you most proud of?</strong>
+      </p>
+      <p>
+        l cannot point to a specific one, but my most proud project is yet to
+        come. Watch this space.
+      </p>
+
+      <h3>Let's Talk</h3>
+      <p>
+        I'm always interested in collabrating and learning about your ideas .
+        Send me an{" "}
+        <a href="mailto:tofaramususa07@gmail.com" target="_blank">
+          email
+        </a>{" "}
+        or find me on{" "}
+        <a href="https://www.linkedin.com/in/tofara-mususa" target="_blank">
+          LinkedIn
+        </a>
+        .
+      </p>
+    </>
   );
 }

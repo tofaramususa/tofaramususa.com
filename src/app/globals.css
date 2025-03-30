@@ -4,8 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @layer base {
   :root {
     --background: 20 14.3% 4.1%;
@@ -30,6 +28,8 @@
 
     /* New color variables */
     --amber: #ffa133;
+    --blue: #0043ff;
+    --offwhite: #fbfbfb;
     --white: #ffffff;
     --pumpkin: #e47b1a;
     --flux: #c8be50;
@@ -63,7 +63,7 @@
 
     /* Apply colors to root */
     color: var(--fg);
-    background-color: var(--white);
+    background-color: var(--offwhite);
   }
 }
 
@@ -74,7 +74,7 @@
 
   body {
     color: var(--fg);
-    background-color: var(--white);
+    background-color: var(--offwhite);
   }
 
   html,
@@ -86,11 +86,27 @@
   ::selection,
   .light ::selection {
     color: var(--white);
-    background-color: var(--white);
+    background-color: var(--blue);
   }
 
   ::spelling-error {
     text-decoration: none;
+  }
+
+  /* Increase specificity for anchor elements */
+  a,
+  a:link,
+  a:visited {
+    color: var(--blue) !important;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  a:hover,
+  a:active {
+    text-decoration: underline;
+    text-decoration-color: var(--blue) !important;
+    color: var(--blue) !important;
   }
 
   main {
@@ -98,14 +114,14 @@
     flex-direction: column;
     align-items: stretch;
     --fg: var(--black);
-    --bg: var(--white);
+    --bg: var(--offwhite);
     color: var(--fg);
     background-color: var(--bg);
   }
 
   main ::selection {
     color: var(--white);
-    background-color: var(--black);
+    background-color: var(--blue);
   }
 
   section {
@@ -119,12 +135,12 @@
     align-items: center;
     justify-content: space-between;
     padding: 44px;
-    background-color: var(--white);
+    background-color: var(--offwhite);
   }
 
   h2 {
-    font-size: 44px;
-    font-family:"Departure Mono", monospace;
+    font-size: clamp(0.7rem, 4vw, 44px);
+    font-family: "Departure Mono", monospace;
     font-weight: 700;
     font-style: bold;
     line-height: 1.1;
@@ -132,6 +148,7 @@
     background-color: var(--ash);
     line-height: 1;
     z-index: 1;
+    white-space: nowrap;
   }
 }
 
@@ -149,6 +166,23 @@
     /* Firefox */
   }
 
+  /* Header specific styling */
+  .header-title {
+    font-size: clamp(0.7rem, 3vw, 1rem) !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  /* Bold heading with !important to override other styles */
+  .bold-header {
+    font-weight: 900 !important;
+    text-align: center !important;
+    width: 100% !important;
+    font-size: clamp(1.1rem, 3.5vw, 1.5rem) !important;
+    padding: 0.6rem !important;
+    line-height: 1.2 !important;
+  }
+
   .callout {
     color: var(--mud);
     border-left: 7px solid var(--mud);
@@ -160,7 +194,7 @@
 
   .callout::selection {
     color: var(--white);
-    background-color: var(--black);
+    background-color: var(--blue);
   }
 
   .inverse {
@@ -169,8 +203,8 @@
   }
 
   .inverse ::selection {
-    color: var(--black);
-    background-color: var(--clay);
+    color: var(--white);
+    background-color: var(--blue);
   }
 
   .maxwidth {
@@ -307,6 +341,14 @@
   }
 
   h2 {
-    font-size: 33px;
+    font-size: clamp(0.7rem, 4vw, 33px);
+  }
+
+  .bold-header.header-title {
+    font-size: clamp(0.8rem, 3vw, 1.1rem) !important;
+    padding: 0.35rem 0.75rem !important;
+    white-space: normal !important;
+    hyphens: auto !important;
+    line-height: 1.2 !important;
   }
 }

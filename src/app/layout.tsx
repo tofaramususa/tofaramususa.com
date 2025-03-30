@@ -10,6 +10,7 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react"; //need to find out what this is for
 
 import { Layout, Main } from "@/components/craft";
+import Navbar from "./components/Navbar";
 
 import { cn } from "@/lib/utils";
 import { CodeXml } from "lucide-react";
@@ -30,7 +31,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <Layout>
       <body className={cn("m-6 text-lg antialiased text-color-black")}>
-        <Main className="fade-in-2 mx-auto mt-24 max-w-xl">{children}</Main>
+        <Navbar />
+        <Main className="fade-in-2 mx-auto mt-0 max-w-xl">{children}</Main>
         <Footer />
         <Analytics />
       </body>
@@ -38,22 +40,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
   );
 }
 
-const Nav = () => {
-  return (
-    <nav className="mx-auto my-8 mb-24 max-w-xl fade-in md:my-24 md:md-36">
-      <div className="grid gap-6">
-        <div className="flex items-center justify-between">
-          <Link href="/">
-          </Link>
-        </div>
-      </div>
-    </nav>
-  );
-};
-
 const Footer = () => {
   return (
-    <footer className="text-sm fade-in-3 mx-auto mb-12  max-w-xl md:mt-24">
+    <footer className="text-sm fade-in-3 mx-auto mb-12  max-w-xl">
       <a
         href="https://www.linkedin.com/in/tofaramususa"
         target="_blank"
