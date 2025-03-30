@@ -50,7 +50,7 @@ const Main = ({ children, className }: MainProps) => {
         // Prose Strong
         "prose-strong:font-semibold",
         // Inline Links
-		"prose-a:border-b prose-a:border-blue-500 prose-a:text-muted-foreground prose-a:no-underline prose-a:transition-all hover:prose-a:text-primary prose-a:[--tw-border-opacity:1] prose-a:[border-color:rgb(59,130,246,var(--tw-border-opacity))]",
+		"prose-a:text-muted-foreground prose-a:no-underline prose-a:transition-all hover:prose-a:text-primary prose-a:[--tw-border-opacity:1] prose-a:[border-color:rgb(59,130,246,var(--tw-border-opacity))]",
         // Blockquotes
         "prose-blockquote:not-italic",
         "pb-12 sm:pb-24",
