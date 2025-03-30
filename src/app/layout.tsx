@@ -30,8 +30,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <Layout>
       <body className={cn("m-6 text-lg antialiased text-color-black")}>
-        <Nav />
-        <Main className="fade-in-2 mx-auto max-w-xl">{children}</Main>
+        <Main className="fade-in-2 mx-auto mt-24 max-w-xl">{children}</Main>
         <Footer />
         <Analytics />
       </body>
