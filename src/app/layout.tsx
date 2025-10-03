@@ -1,19 +1,13 @@
 import "./globals.css";
-import { Button } from "@/components/ui/button";
-
-import logo from "@/public/logo.svg";
-import Image from "next/image";
-import Link from "next/link";
 import { ReactNode } from "react";
 
 import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/react"; //need to find out what this is for
+import { Analytics } from "@vercel/analytics/react";
 
 import { Layout, Main } from "@/components/craft";
 import Navbar from "./components/Navbar";
 
 import { cn } from "@/lib/utils";
-import { CodeXml } from "lucide-react";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://tofaramususa.me"),

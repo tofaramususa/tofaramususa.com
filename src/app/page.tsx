@@ -72,8 +72,8 @@ export default function Home() {
         <strong>What is your formal education?</strong>
       </p>
       <p>
-        I completed the UK Cambridge System in high school with 8A*'s and 1A for
-        IGCSE, followed by 1A*, 2A's and 1B for A Level. I scored 770/800 on the
+        I completed the UK Cambridge System in high school with 8A*&apos;s and 1A for
+        IGCSE, followed by 1A*, 2A&apos;s and 1B for A Level. I scored 770/800 on the
         SAT Math. I furthered my education at{" "}
         <a href="https://42.fr/en/homepage/" target="_blank">
           Ecole 42
@@ -86,7 +86,7 @@ export default function Home() {
         <strong>What are you currently building for yourself?</strong>
       </p>
       <p>
-        I'm developing two ventures: claireAI, a WhatsApp-based AI assistant
+        I&apos;m developing two ventures: claireAI, a WhatsApp-based AI assistant
         that serves as a virtual employee for small businesses, and Horizon, a
         web agency focused on building high-quality software infrastructure
         across Southern Africa.
@@ -96,14 +96,14 @@ export default function Home() {
         <strong>What project are you most proud of?</strong>
       </p>
       <p>
-        While I've built many projects I'm proud of, my defining work is still
-        ahead. I'm focused on creating solutions that will have significant
+        While I&apos;ve built many projects I&apos;m proud of, my defining work is still
+        ahead. I&apos;m focused on creating solutions that will have significant
         impact. Stay tuned.
       </p>
 
-      <h3>Let's Talk</h3>
+      <h3>Let&apos;s Talk</h3>
       <p>
-        I'm always interested in collaborating and learning about your ideas.
+        I&apos;m always interested in collaborating and learning about your ideas.
         Reach out via{" "}
         <a href="mailto:tofaramususa07@gmail.com" target="_blank">
           email
