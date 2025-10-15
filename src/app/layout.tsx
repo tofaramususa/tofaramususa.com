@@ -14,6 +14,13 @@ export const metadata: Metadata = {
   title: "Tofara Mususa | Software Engineer",
   description:
     "l am Software Engineer from Harare, Zimbabwe based in Abu Dhabi, UAE",
+  icons: {
+    icon: [
+      {
+        url: "/gear-svgrepo-com.svg"
+      },
+    ],
+  },
 };
 
 //an interface describes the structure of an object.

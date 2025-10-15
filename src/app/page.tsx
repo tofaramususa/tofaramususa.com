@@ -2,117 +2,175 @@ export default function Home() {
   return (
     <>
       <h2 className="text-center mx-auto w-full bg-ash py-2 bold-header header-title">
-        <strong>SOFTWARE ENGINEER • AI • FULLSTACK</strong>
+        <strong>A.I • FULL-STACK</strong>
       </h2>
 
-      <h3>Bio</h3>
-
-      <p>
-        <strong>Who are you, again?</strong>
-      </p>
-      <p>
-        My name is Tofara. Born and raised in <strong>Harare, Zimbabwe</strong>,
-        currently living in <strong>Dubai/Abu Dhabi</strong>, where I study and
-        work building software.
-      </p>
-
-      <p>
-        <strong>What are you passionate about?</strong>
-      </p>
-      <p>
-        I spend most of my time building software - fullstack applications and
-        AI agents. My whole focus is getting to a level where the software I
-        ship is used by millions.
-      </p>
-
-      <h3>Work & Education</h3>
-
-      <p>
-        <strong>What projects have you worked on?</strong>
-      </p>
-      <p>
-        I currently work at a US-based startup as a software engineer. My
-        experience includes deploying production Python APIs, building
-        full-stack applications with TypeScript and NextJS, and developing AI
-        agents using crewAI and LLM SDKs. View my work history on{" "}
-        <a href="https://www.linkedin.com/in/tofara-mususa" target="_blank">
+      <p className="text-center !mt-6 text-lg font-semibold">
+        <a href="https://www.linkedin.com/in/tofara-mususa" target="_blank" className="underline">
           LinkedIn
-        </a>{" "}
-        and projects on{" "}
+        </a>
+        {" • "}
         <a
-          href="https://github.com/tofaramususa?tab=repositories"
+          href="https://github.com/tofaramususa"
           target="_blank"
+          className="underline"
         >
           GitHub
         </a>
-        .
+      </p>
+
+      <h3>About Me</h3>
+
+      <p>
+        Hi, I&apos;m <strong>Tofara</strong> — a software engineer and AI systems builder from <strong>Harare, Zimbabwe</strong>, based between <strong>Dubai and Abu Dhabi</strong>. I&apos;m passionate about the intersection of <strong>artificial intelligence</strong>, <strong>full-stack development</strong>, and <strong>infrastructure engineering</strong> — building production-grade systems that scale, adapt, and solve real-world problems.
       </p>
 
       <p>
-        <strong>What skills do you got?</strong>
-      </p>
-      <p>
-        Deep understanding of CS principles. I programmed in C/C++ for 2 years.
-        Built games, HTTP servers, multi-threaded apps etc. That set the
-        foundation for my technical skills, to be able to understand complex
-        systems and build robust software. I have used JavaScript, TypeScript,
-        Python to ship production code. I have used Docker, GitHub Actions,
-        CI/CD to deploy software.{" "}
-        <strong>
-          My expertise lies in learning and in managing deep complexity
-        </strong>
-      </p>
-      <p>
-        I am able to communicate effectively, working with non-technical CEOs to
-        translate user stories into code. I worked in remote technical teams
-        with diverse nationalities. I am passionate about startups as well.
-        Working in one and building my own.
-      </p>
-      <p>
-        <strong>What is your formal education?</strong>
-      </p>
-      <p>
-        I completed the UK Cambridge System in high school with 8A*&apos;s and 1A for
-        IGCSE, followed by 1A*, 2A&apos;s and 1B for A Level. I scored 770/800 on the
-        SAT Math. I furthered my education at{" "}
-        <a href="https://42.fr/en/homepage/" target="_blank">
-          Ecole 42
-        </a>{" "}
-        (Abu Dhabi Campus), where I developed my software engineering skills.
-      </p>
-      <h3>Business</h3>
-
-      <p>
-        <strong>What are you currently building for yourself?</strong>
-      </p>
-      <p>
-        I&apos;m developing two ventures: claireAI, a WhatsApp-based AI assistant
-        that serves as a virtual employee for small businesses, and Horizon, a
-        web agency focused on building high-quality software infrastructure
-        across Southern Africa.
+        I specialize in transforming ideas into reliable, intelligent systems. I&apos;ve worked across the full stack — from designing APIs and scalable architectures to developing <strong>agentic AI workflows</strong> that automate complex reasoning tasks. My work combines <strong>deep technical problem-solving</strong> with <strong>product intuition</strong> — every line of code is written with performance, maintainability, and real-world impact in mind.
       </p>
 
+      <h3>What I Do</h3>
+
       <p>
-        <strong>What project are you most proud of?</strong>
+        I currently work as a <strong>Software Engineer</strong> at a US-based AI startup, building production-grade agentic systems and LLM-powered microservices. My work spans the full AI engineering stack:
       </p>
+
+      <ul>
+        <li>
+          <strong>Architecting agentic AI systems</strong> with LangGraph, CrewAI, and custom agent frameworks — designing multi-agent workflows for autonomous reasoning, tool orchestration, and state management across distributed systems.
+        </li>
+        <li>
+          <strong>Building Python microservices and REST APIs</strong> with FastAPI, PostgreSQL, MongoDB, and Redis — implementing TDD, asynchronous processing, and Model Context Protocol (MCP) integrations for LLM-native applications.
+        </li>
+        <li>
+          <strong>Developing production frontends</strong> using TypeScript, Next.js, and React — building real-time AI dashboards, streaming LLM responses, and interactive agent interfaces with Tailwind CSS and shadcn/ui.
+        </li>
+        <li>
+          <strong>Implementing observability and infrastructure</strong> with Prometheus, Grafana, Traefik, and Docker — deploying containerized services with CI/CD pipelines via GitHub Actions and monitoring production LLM systems.
+        </li>
+        <li>
+          <strong>Collaborating across engineering and product</strong> to translate AI research into scalable systems, working directly with founders to architect technical solutions aligned with product vision.
+        </li>
+      </ul>
+
       <p>
-        While I&apos;ve built many projects I&apos;m proud of, my defining work is still
-        ahead. I&apos;m focused on creating solutions that will have significant
-        impact. Stay tuned.
+        My approach is <strong>full-stack and holistic</strong> — I care about every layer, from the database schema to the user experience, and the intelligence that connects them.
+      </p>
+
+      <h3>Technical Expertise</h3>
+
+      <p>
+        I&apos;m fluent in multiple layers of modern engineering:
+      </p>
+
+      <ul>
+        <li>
+          <strong>Languages:</strong> Python, TypeScript, JavaScript, C, C++, SQL
+        </li>
+        <li>
+          <strong>Frameworks:</strong> FastAPI, Django, Next.js, React, LangChain, CrewAI
+        </li>
+        <li>
+          <strong>Infrastructure:</strong> Docker, GitHub Actions, CI/CD, Prisma, PostgreSQL
+        </li>
+        <li>
+          <strong>AI Systems:</strong> RAG pipelines, agentic workflows, API-based LLM orchestration, and prompt engineering
+        </li>
+        <li>
+          <strong>Software Principles:</strong> SOLID, Domain-Driven Design (DDD), Test-Driven Development (TDD), and Clean Architecture
+        </li>
+      </ul>
+
+      <p>
+        My foundation was built on <strong>two years of intensive C/C++ programming</strong>, where I developed HTTP servers, game engines, and multithreaded applications. This low-level grounding taught me how computers truly work — memory, processes, networking — and gave me the technical confidence to design complex, distributed systems.
+      </p>
+
+      <p>
+        I later transitioned to full-stack web and AI development, where I now blend modern web frameworks with machine intelligence, creating systems that <em>learn</em>, <em>adapt</em>, and <em>scale</em>.
+      </p>
+
+      <h3>Work & Collaboration</h3>
+
+      <p>
+        Beyond the technical layer, I bring <strong>strong communication and teamwork</strong>. I&apos;ve worked in remote, multicultural teams spanning the US, UAE, and Africa — coordinating across time zones, aligning business priorities with technical execution, and delivering consistently.
+      </p>
+
+      <p>
+        I&apos;m comfortable working directly with <strong>non-technical founders, PMs, and clients</strong>, translating high-level product ideas into concrete technical solutions. I also enjoy mentoring peers, reviewing code, and improving developer workflows through automation and DevOps practices.
+      </p>
+
+      <p>
+        My professional values are: <strong>clarity, reliability, and precision</strong> — whether in communication or code.
+      </p>
+
+      <h3>Education</h3>
+
+      <ul>
+        <li>
+          <strong>École 42 Abu Dhabi</strong> (Software Engineering Program)
+          <br />
+          Intensive peer-driven program focused on low-level programming, system design, and large-scale software projects.
+        </li>
+        <li>
+          <strong>Cambridge International A Levels:</strong> 1A*, 2A&apos;s, 1B (Mathematics and Physical Sciences)
+        </li>
+        <li>
+          <strong>IGCSE:</strong> 8A*&apos;s and 1A
+        </li>
+        <li>
+          <strong>SAT Math:</strong> 770 / 800
+        </li>
+      </ul>
+
+      <p>
+        These experiences trained me to think algorithmically, debug deeply, and approach problems with both creativity and rigor.
+      </p>
+
+      <h3>Ventures & Side Projects</h3>
+
+      <p>
+        Outside work, I&apos;m building:
+      </p>
+
+      <ul>
+        <li>
+          <strong>claireAI</strong> — a WhatsApp-based AI assistant designed as a virtual employee for small businesses, automating communication, scheduling, and lead management through conversational AI.
+        </li>
+        <li>
+          <strong>Horizon</strong> — a software studio focused on developing high-quality web infrastructure and AI integrations across Southern Africa.
+        </li>
+      </ul>
+
+      <h3>Vision & Craft</h3>
+
+      <p>
+        I believe the best software blends <strong>engineering precision</strong> with <strong>creative design</strong>. My long-term goal is to create systems that serve millions of users, combining robust infrastructure with human-centered AI capabilities.
+      </p>
+
+      <p>
+        I&apos;m especially interested in how <strong>LLMs, agentic systems, and retrieval architectures</strong> can power the next generation of educational and productivity tools — systems that understand and adapt to human intent, not just execute commands.
       </p>
 
       <h3>Let&apos;s Talk</h3>
+
       <p>
-        I&apos;m always interested in collaborating and learning about your ideas.
-        Reach out via{" "}
+        If you&apos;re building something ambitious — whether it&apos;s a startup, AI product, or open-source tool — I&apos;d love to hear about it.
+      </p>
+
+      <p>
+        You can reach me via{" "}
         <a href="mailto:tofaramususa07@gmail.com" target="_blank">
           email
         </a>{" "}
-        or connect on{" "}
+        or connect with me on{" "}
         <a href="https://www.linkedin.com/in/tofara-mususa" target="_blank">
           LinkedIn
         </a>
         .
+      </p>
+
+      <p>
+        Let&apos;s build something <strong>intelligent</strong>, <strong>useful</strong>, and <strong>lasting</strong>.
       </p>
     </>
   );
