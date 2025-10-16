@@ -43,13 +43,16 @@ export default function Home() {
           <strong>Architecting agentic AI systems</strong> with LangGraph, CrewAI, and custom agent frameworks — designing multi-agent workflows for autonomous reasoning, tool orchestration, and state management across distributed systems.
         </li>
         <li>
+          <strong>Integrating LLM APIs and SDKs</strong> including OpenAI, Anthropic (Claude), Hugging Face Transformers, and Perplexity — building production applications with multi-model orchestration, streaming responses, function calling, and context management across different LLM providers.
+        </li>
+        <li>
           <strong>Building Python microservices and REST APIs</strong> with FastAPI, PostgreSQL, MongoDB, and Redis — implementing TDD, asynchronous processing, and Model Context Protocol (MCP) integrations for LLM-native applications.
         </li>
         <li>
           <strong>Developing production frontends</strong> using TypeScript, Next.js, and React — building real-time AI dashboards, streaming LLM responses, and interactive agent interfaces with Tailwind CSS and shadcn/ui.
         </li>
         <li>
-          <strong>Implementing observability and infrastructure</strong> with Prometheus, Grafana, Traefik, and Docker — deploying containerized services with CI/CD pipelines via GitHub Actions and monitoring production LLM systems.
+          <strong>Implementing observability and infrastructure</strong> with Docker and Kubernetes — deploying containerized services with CI/CD pipelines via GitHub Actions and monitoring production LLM systems.
         </li>
         <li>
           <strong>Collaborating across engineering and product</strong> to translate AI research into scalable systems, working directly with founders to architect technical solutions aligned with product vision.
@@ -68,19 +71,25 @@ export default function Home() {
 
       <ul>
         <li>
-          <strong>Languages:</strong> Python, TypeScript, JavaScript, C, C++, SQL
+          <strong>Languages:</strong> Python, TypeScript, C, C++, Go
         </li>
         <li>
           <strong>AI Dev Tools:</strong> Claude Code, Cursor, GitHub Copilot, Model Context Protocol (MCP), and prompt engineering
         </li>
         <li>
-          <strong>Frameworks:</strong> FastAPI, Django, Next.js, React, LangChain, CrewAI
+          <strong>LLM APIs & SDKs:</strong> OpenAI, Anthropic (Claude), Hugging Face Transformers, Perplexity, Groq, and Cohere
         </li>
         <li>
-          <strong>Infrastructure:</strong> Docker, GitHub Actions, CI/CD, Prisma, PostgreSQL
+          <strong>Frameworks & Testing:</strong> FastAPI, Next.js, React, LangGraph, CrewAI, pytest, Jest
         </li>
         <li>
-          <strong>AI Systems:</strong> RAG pipelines, agentic workflows, API-based LLM orchestration, and prompt engineering
+          <strong>Infrastructure & Cloud:</strong> Docker, Kubernetes, AWS, Cloudflare Workers, Redis, RabbitMQ, PostgreSQL, MongoDB, GitHub Actions, Prometheus, Grafana
+        </li>
+        <li>
+          <strong>AI Systems:</strong> RAG pipelines, vector databases (Pinecone, Qdrant), agentic workflows, LLM evaluation tools, and prompt engineering
+        </li>
+        <li>
+          <strong>Automation:</strong> n8n, Pipedream
         </li>
         <li>
           <strong>Software Principles:</strong> SOLID, Domain-Driven Design (DDD), Test-Driven Development (TDD), and Clean Architecture
