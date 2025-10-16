@@ -26,7 +26,7 @@ export default function Home() {
       </p>
 
       <p>
-        I specialize in transforming ideas into reliable, intelligent systems. I&apos;ve worked across the full stack — from designing APIs and scalable architectures to developing <strong>agentic AI workflows</strong> that automate complex reasoning tasks. My work combines <strong>deep technical problem-solving</strong> with <strong>product intuition</strong> — every line of code is written with performance, maintainability, and real-world impact in mind.
+        I&apos;m passionate about transforming ideas into reliable, intelligent systems. I&apos;ve worked across the full stack — from designing APIs and scalable architectures to developing <strong>agentic AI workflows</strong> that automate complex reasoning tasks. My work combines <strong>deep technical problem-solving</strong> with <strong>product intuition</strong> — every line of code is written with performance, maintainability, and real-world impact in mind.
       </p>
 
       <h3>What I Do</h3>
@@ -36,6 +36,9 @@ export default function Home() {
       </p>
 
       <ul>
+        <li>
+          <strong>Using Claude Code, Cursor, and GitHub Copilot</strong> to build features with AI-first development practices — accelerating implementation through AI pair programming, exploring architectural patterns with LLM reasoning, and transforming requirements into production-ready code.
+        </li>
         <li>
           <strong>Architecting agentic AI systems</strong> with LangGraph, CrewAI, and custom agent frameworks — designing multi-agent workflows for autonomous reasoning, tool orchestration, and state management across distributed systems.
         </li>
@@ -66,6 +69,9 @@ export default function Home() {
       <ul>
         <li>
           <strong>Languages:</strong> Python, TypeScript, JavaScript, C, C++, SQL
+        </li>
+        <li>
+          <strong>AI Dev Tools:</strong> Claude Code, Cursor, GitHub Copilot, Model Context Protocol (MCP), and prompt engineering
         </li>
         <li>
           <strong>Frameworks:</strong> FastAPI, Django, Next.js, React, LangChain, CrewAI
